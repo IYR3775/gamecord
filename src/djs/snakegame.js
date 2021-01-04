@@ -25,7 +25,7 @@ class SnakeGame {
 
         for (let y = 0; y < HEIGHT; y++) {
             for (let x = 0; x < WIDTH; x++) {
-                this.gboard[y * WIDTH + x] = "🟦";
+                this.gboard[y * WIDTH + x] = "⬛";
             }
         }
 
